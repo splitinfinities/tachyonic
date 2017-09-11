@@ -1,0 +1,19 @@
+/*
+
+   CSS Variables
+
+*/
+
+html {
+    /* Helpers for @apply */
+    --clip: {
+        position: fixed !important;
+        clip: rect(1px, 1px, 1px, 1px);
+    };
+
+    --truncate: {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    };
+}

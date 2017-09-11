@@ -1,0 +1,33 @@
+/*
+
+   TYPOGRAPHY
+
+*/
+
+html {
+    /* Type scale steps */
+    --fs-step--2: .75rem;
+    --fs-step--1: .875rem;
+    --fs-step-1: 1rem;
+    --fs-step-2: 1.25rem;
+    --fs-step-3: 1.5rem;
+    --fs-step-4: 2.25rem;
+    --fs-step-5: 3rem;
+    --fs-step-6: 5rem;
+    --fs-step-7: 6rem;
+
+    /* Type line break widths */
+    --measure: 30em;
+    --measure-wide: 34em;
+    --measure-narrow: 20em;
+
+    /* Tracking */
+    --tracking--1: -.05em;
+    --tracked-0: .1em;
+    --tracked-1: .25em;
+
+    /* Leading */
+    --leading-0: 1;
+    --leading-1: 1.25;
+    --leading-2: 1.5;
+}

@@ -1,0 +1,32 @@
+/*
+
+   SIZING STEPS
+
+*/
+
+html {
+    --step--3: .125rem;
+    --step--2: .25rem;
+    --step--1: .5rem;
+    --step-0: 0;
+    --step-1: 1rem;
+    --step-2: 2rem;
+    --step-3: 4rem;
+    --step-4: 8rem;
+    --step-5: 16rem;
+    --step-6: 32rem;
+    --step-7: 48rem;
+    --step-8: 64rem;
+    --step-9: 96rem;
+
+    /* Screen real-estate steps */
+    --vh-25: 25vh;
+    --vh-50: 50vh;
+    --vh-75: 75vh;
+    --vh-100: 100vh;
+
+    --vw-25: 25vw;
+    --vw-50: 50vw;
+    --vw-75: 75vw;
+    --vw-100: 100vw;
+}

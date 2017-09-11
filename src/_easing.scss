@@ -1,0 +1,13 @@
+/*
+
+	EASING
+
+*/
+
+html {
+	--ease: ease;
+	--ease-in: ease-in;
+	--ease-out: ease-out;
+	--ease-in-out: ease-in-out;
+	--ease-bounce: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
