@@ -1,9 +1,9 @@
 {
   "name": "tachyonic",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Functional CSS custom properties for humans",
   "author": "splitinfinities",
-  "style": "css/tachyonic.min.css",
+  "style": "css/tachyonic.css",
   "main": "css/tachyonic.css",
   "files": [
     "css",
@@ -13,6 +13,7 @@
   "keywords": [
     "css",
     "oocss",
+    "custom properties",
     "functional css",
     "design",
     "responsive",
@@ -22,24 +23,23 @@
   "devDependencies": {
     "css-loader": "^0.28.7",
     "remove-webpack-plugin": "^1.2.2",
-    "style-loader": "^0.18.2"
-  },
-  "contributors": [
-    {
-      "name": "William M. Riley",
-      "email": "hello@splitinfinities.com"
-    }
-  ],
-  "scripts": {
-    "start": "npm run build",
-    "build": "webpack && rimraf ./css/tachyonic.js"
-  },
-  "dependencies": {
+    "style-loader": "^0.18.2",
     "extract-text-webpack-plugin": "^3.0.0",
     "node-sass": "^4.5.3",
     "postcss-loader": "^2.0.6",
     "rimraf": "^2.6.1",
     "sass-loader": "^6.0.6",
     "webpack": "^3.5.6"
+  },
+  "contributors": [
+    {
+      "name": "William M. Riley",
+      "email": "will@splitinfinities.com"
+    }
+  ],
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "webpack --watch",
+    "build": "webpack && rimraf ./css/tachyonic.js"
   }
 }
